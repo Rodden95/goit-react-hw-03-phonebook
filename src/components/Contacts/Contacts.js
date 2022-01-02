@@ -1,4 +1,4 @@
-import { Form, ListGroup, Button } from 'react-bootstrap';
+import { ListGroup, Button } from 'react-bootstrap';
 
 export default function Contacts({ contacts, deleteContact }) {
   

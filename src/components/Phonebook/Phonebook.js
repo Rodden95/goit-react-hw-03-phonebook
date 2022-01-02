@@ -1,4 +1,4 @@
-import { Component } from "react/cjs/react.production.min";
+import { Component } from "react";
 import { Button, Form } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Contacts from "../Contacts";
