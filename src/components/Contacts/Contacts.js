@@ -1,5 +1,5 @@
 import { ListGroup, Button } from 'react-bootstrap';
-
+import PropTypes from 'prop-types';
 export default function Contacts({ contacts, deleteContact }) {
   
   return (
@@ -24,3 +24,7 @@ export default function Contacts({ contacts, deleteContact }) {
 };
 
 
+PropTypes.Contacts = {
+  contacts: PropTypes.object.isRequired,
+  deleteContact: PropTypes.func.isRequired,
+};

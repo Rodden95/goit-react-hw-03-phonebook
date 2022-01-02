@@ -1,6 +1,6 @@
 
 import { Form } from 'react-bootstrap';
-
+import PropTypes from 'prop-types';
 export default function Filter({filter}){
 
   return (
@@ -11,4 +11,8 @@ export default function Filter({filter}){
       </Form.Group>
     </Form>
   );
+};
+
+PropTypes.Filter = {
+  filter: PropTypes.func.isRequired,
 };
